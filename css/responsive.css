@@ -1,0 +1,71 @@
+@media (max-width:1024px) {
+    div.pic-me{
+        width: 40%;
+        display: block;
+    }
+    div.about-me{
+        display: block;
+    }
+   div.aboutMe-text{
+    width: 60%;
+    padding: 0px 40px;
+   }
+   
+   div.onlineMkt,div.seo{
+    display: none;
+   }
+   div.skills{
+      width: 30%;  
+      /* padding: 30px 0px; */
+}
+div.languages-bar{
+    width: 50%;
+    padding: 30px 0px;
+}
+}
+@media (max-width:768px) {
+   div.webDesign,div.graphicD{
+       display: none;
+    }
+    p.people-says-para{
+        padding: 10px 5px;
+    }
+    /* start footer coding  */
+     div.copyright{
+        font-size: 13px;
+     }
+    /* end footer coding  */
+}
+@media (max-width:480px) {
+    div.pic-me, div.aboutMe-text{
+        width: 100%;
+    }
+   div.aboutMe-text{
+        padding: 20px 50px;
+    }
+    div.webDesign,div.graphicD,div.onlineMkt,div.seo{
+    display: block;
+    width: 70%;
+    margin: 19px 44px;
+ }
+  div.aboutMe-para{
+  margin: 0px 0px;
+    }
+    div.skills{
+        width: 97%;
+    }
+    div.languages-bar{
+        width: 90%;
+    }
+     /* start footer coding  */
+    div.copyright{
+        padding: 15px 54px;
+        text-align: center;
+        font-size: 8px;
+     }
+    i.social-link{
+        padding: 7px 7px;
+        width: 1%;
+    }
+    /* end footer coding  */
+}
